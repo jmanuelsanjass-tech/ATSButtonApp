@@ -1,0 +1,13 @@
+{
+  "name": "ats-button-server",
+  "version": "1.0.0",
+  "description": "Server to receive commands from ATSButtonApp and simulate key presses",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.19.2",
+    "robotjs": "^0.6.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
